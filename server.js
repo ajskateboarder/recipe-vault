@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function(req, res){
-    res.sendFile('./index.html')
+    res.send('hello world')
 })
 
 app.listen(3000)
